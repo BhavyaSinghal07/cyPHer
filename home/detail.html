@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sheryjs/dist/Shery.css" />
+    <link rel="shortcut icon" href="./logo.jpg" type="image/x-icon">
+    <title>cyPHer</title>
+    
+    <link rel="stylesheet" href="./detail.css">
+</head>
+<body>
+    <nav>
+        cyPHer
+        <div id="part">
+        <a href="#">Home</a>
+        <a href="#">Camera</a>
+        <a href="#">DashBoard</a>
+        </div>
+        Login
+    </nav>
+    <div id="main">
+        <div id="detail">
+            <form id="criminal-details">
+                <h2>Criminal Details Form</h2>
+                
+                <div class="form-group">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="age">Age:</label>
+                    <input type="number" id="age" name="age" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="gender">Gender:</label>
+                    <select id="gender" name="gender" required>
+                        <option value="">Select Gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="crimes">Types of Crimes:</label>
+                    <select id="crimes" name="crimes" multiple required>
+                        <option value="theft">Theft</option>
+                        <option value="assault">Assault</option>
+                        <option value="fraud">Fraud</option>
+                        <option value="cybercrime">Cybercrime</option>
+                        <option value="drugOffense">Drug Offense</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="address">Last Known Address:</label>
+                    <textarea id="address" name="address" rows="3" required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="photo">Criminal Photo:</label>
+                    <input type="file" id="photo" name="photo" accept="image/*" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="description">Additional Description:</label>
+                    <textarea id="description" name="description" rows="4"></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Submit Details</button>
+            </form>
+
+            
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+
+</body> 
+</html>   
